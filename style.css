@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+.number {
+    list-style-type: decimal !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.action-bar-item{
+    
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 48px;
+    height: 48px;
+    margin: 20px;
+    margin-left: -23px;
+   
+   
+  
+}
+.action-bar-item i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+ 
+    color: black;
+}
+.action-bar{
+    position: fixed;
+    top: 50%;
+    font-size: 20px;
+    font-weight: 900 !important;
+    color: white;
+}
+.heading{
+   
+    margin: 20px;
+    margin-top: 150px;
+}
+.heading p{
+    margin-top: 10px;
+}
+.iconss{
+    display: flex;
+    justify-content: end;
+    margin-top: -5%;
+    padding: 10px
+}
+.titless p{
+    margin-top: 10px;
+}
+
+.heading .para p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+.heading .para span{
+    /* margin: 50px; */
+}
+.head .mains {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.head p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.bullet{
+    margin-right: 10px;
+}
+.bullet ul li p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.bullet .bold-para p{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bullet p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.pic
+{
+    border: 1px solid gray;
+    width: 330px;
+    height: 80px;
+   
+}
+#comment-pic img{
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+#comment-pic .coment-name{
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: red; */
+}
+
+#comment-pic p{
+    margin-left: 60px;
+}
+
+#comment-pic .comment-replay p{
+    margin: 10px;
+    background-color: red;
+}
+.comment-replay{
+    /* background-color: red; */
+    margin-left: 70px;
+    width: 100%;
+}
+.comment-replay span{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.comment-replay .reply span{
+    font-weight: 500 !important;
+
+}
